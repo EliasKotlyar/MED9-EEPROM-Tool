@@ -46,6 +46,8 @@ blocks_array = [
     Block20(),
     Block21()
 ]
+
+#blocks_array = [BlockFD_CUST()]
 # Printing out the instances
 for block in blocks_array:
     # print(block.blockaddr, block.blocknr)

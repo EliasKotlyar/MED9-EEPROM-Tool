@@ -24,4 +24,4 @@ class BlockPRGID(AbstractBlock):
                     };
                     '''
 
-        super().__init__(blockaddr=0x260, blocknr=19, struct_data=struct_data)
+        super().__init__(blockaddr=0x280, blocknr=19, struct_data=struct_data)

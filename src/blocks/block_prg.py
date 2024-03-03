@@ -15,4 +15,4 @@ class BlockPRG(AbstractBlock):
     uint16_t eepCheckSum;          // eepCheckSum
                 };
                 '''
-        super().__init__(blockaddr=0x280, blocknr=20, struct_data=struct_data)
+        super().__init__(blockaddr=0x260, blocknr=20, struct_data=struct_data)
